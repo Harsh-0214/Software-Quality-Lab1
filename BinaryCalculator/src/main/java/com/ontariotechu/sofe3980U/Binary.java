@@ -79,4 +79,92 @@ public class Binary
 		return result;
 		
 	}
-}	
+
+	/**
+	 * @param num1
+	 * @param num2
+	 * @return
+	 */
+	public static Binary or(Binary num1, Binary num2)
+	{
+		// Find the length of the two binary numbers
+		int len1 = num1.number.length();
+		int len2 = num2.number.length();
+
+		// Determine the maximum length among the two
+		int maxLength = Math.max(len1, len2);
+
+		// Create arrays to hold the binary digits, padded with leading zeros if necessary
+		//* Let's say num1 is "101" and num2 is "1001", so we need to pad num1 with a 0, "0101"
+
+		char[] binary1 = String.format("%" + maxLength + "s", num1.number).replace(' ', '0').toCharArray();
+		char[] binary2 = String.format("%" + maxLength + "s", num2.number).replace(' ', '0').toCharArray();
+
+		// Perform bitwise OR operation
+		String result = "";
+		for (int i = 0; i < maxLength; i++) {
+
+			//* If Num1 or Num2's [i]th element is a 1, put 1, else: put 0
+
+			result += (binary1[i] == '1' || binary2[i] == '1') ? '1' : '0';
+		}
+
+		return new Binary(result);
+	}
+
+	public static Binary and(Binary num1, Binary num2)
+	{
+		// Find the length of the two binary numbers
+		int len1 = num1.number.length();
+		int len2 = num2.number.length();
+
+		// Determine the maximum length among the two
+		int maxLength = Math.max(len1, len2);
+
+		// Create arrays to hold the binary digits, padded with leading zeros if necessary
+		//* Let's say num1 is "101" and num2 is "1001", so we need to pad num1 with a 0, "0101"
+
+		char[] binary1 = String.format("%" + maxLength + "s", num1.number).replace(' ', '0').toCharArray();
+		char[] binary2 = String.format("%" + maxLength + "s", num2.number).replace(' ', '0').toCharArray();
+
+		// Perform bitwise OR operation
+		String result = "";
+		for (int i = 0; i < maxLength; i++) {
+
+			//* If Num1 or Num2's [i]th element is a 1, put 1, else: put 0
+
+			result += (binary1[i] == '1' && binary2[i] == '1') ? '1' : '0';
+		}
+
+		return new Binary(result);
+	}
+
+// Function to multiply two binary numbers
+public static Binary multiply(Binary binaryNum1, Binary binaryNum2) {
+    // Initialize result to zero
+    Binary result = new Binary("0");
+
+    // Iterate through each bit of binaryNum2
+    for (int i = binaryNum2.number.length() - 1; i >= 0; i--) {
+        // If the current bit of binaryNum2 is '1', add binaryNum1 to the result
+        if (binaryNum2.number.charAt(i) == '1') {
+            // Shift binaryNum1 by the appropriate amount to align with the current bit position
+            Binary shiftedNum1 = shiftLeft(binaryNum1, binaryNum2.number.length() - 1 - i);
+            // Add shiftedNum1 to the result
+            result = add(result, shiftedNum1);
+        }
+    }
+
+    return result;
+}
+
+// Helper method to shift a binary number to the left by a specified number of bits
+private static Binary shiftLeft(Binary binaryNum, int numBits) {
+    StringBuilder shiftedNum = new StringBuilder(binaryNum.number);
+    for (int i = 0; i < numBits; i++) {
+        shiftedNum.append('0'); // Append zeros to the end to shift left
+    }
+    return new Binary(shiftedNum.toString());
+}
+
+}
