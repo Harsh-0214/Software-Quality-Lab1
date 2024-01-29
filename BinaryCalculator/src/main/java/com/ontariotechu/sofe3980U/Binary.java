@@ -140,31 +140,26 @@ public class Binary
 	}
 
 // Function to multiply two binary numbers
-public static Binary multiply(Binary binaryNum1, Binary binaryNum2) {
-    // Initialize result to zero
-    Binary result = new Binary("0");
-
-    // Iterate through each bit of binaryNum2
-    for (int i = binaryNum2.number.length() - 1; i >= 0; i--) {
-        // If the current bit of binaryNum2 is '1', add binaryNum1 to the result
-        if (binaryNum2.number.charAt(i) == '1') {
-            // Shift binaryNum1 by the appropriate amount to align with the current bit position
-            Binary shiftedNum1 = shiftLeft(binaryNum1, binaryNum2.number.length() - 1 - i);
-            // Add shiftedNum1 to the result
-            result = add(result, shiftedNum1);
-        }
+	public static Binary multiply(Binary num1, Binary num2) {
+    	// Initialize the result to 0
+    	Binary result = new Binary("0");
+    	if (num1.equals("0") || num2.equals("0")) {
+        	return result; // Return 0 as multiplication by zero results in zero
     }
 
-    return result;
-}
+	// Iterate through each digit of num2
+	for (int i = num2.number.length() - 1; i >= 0; i--) {
+		int digit = num2.number.charAt(i) - '0';
 
-// Helper method to shift a binary number to the left by a specified number of bits
-private static Binary shiftLeft(Binary binaryNum, int numBits) {
-    StringBuilder shiftedNum = new StringBuilder(binaryNum.number);
-    for (int i = 0; i < numBits; i++) {
-        shiftedNum.append('0'); // Append zeros to the end to shift left
-    }
-    return new Binary(shiftedNum.toString());
-}
-
+		// If the current digit is 1, add the shifted num1 to the result
+		if (digit == 1) {
+			String padding = "";
+			for (int j = 0; j < num2.number.length() - 1 - i; j++) {
+				padding += "0";
+			}
+			result = add(result, new Binary(num1.number + padding));
+		}
+	}
+	return result;
+	}
 }

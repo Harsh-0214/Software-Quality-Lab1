@@ -139,31 +139,34 @@ public class BinaryTest
       assertTrue(result.getValue().equals("1000"));
   }
 
-  // Test for the multiply function - case 1
   @Test
-  public void multiply1() {
-      Binary binary1 = new Binary("1010");
-      Binary binary2 = new Binary("10");
-      Binary result = Binary.multiply(binary1, binary2);
-      assertTrue(result.getValue().equals("10100"));
+  public void multi1(){
+      Binary binary1=new Binary("11111111");
+      Binary binary2=new Binary("0");
+      Binary binary3=Binary.multiply(binary1,binary2);
+      equals(binary3.getValue().equals("0"));      
   }
 
-  // Test for the multiply function - case 2
+  /**
+   * Test the Multiply function with an alternating pattern
+   */    
   @Test
-  public void multiply2() {
-      Binary binary1 = new Binary("111");
-      Binary binary2 = new Binary("111");
-      Binary result = Binary.multiply(binary1, binary2);
-      assertTrue(result.getValue().equals("110001"));
+  public void multi2(){
+      Binary binary1=new Binary("01010101");
+      Binary binary2=new Binary("10101010");
+      Binary binary3=Binary.multiply(binary1,binary2);
+      assertTrue(binary3.getValue().equals("11100001110010"));        
   }
 
-  // Test for the multiply function - case 3
+  /**
+   * Test multiply function with long numbers
+   */    
   @Test
-  public void multiply3() {
-      Binary binary1 = new Binary("1001");
-      Binary binary2 = new Binary("0");
-      Binary result = Binary.multiply(binary1, binary2);
-      assertTrue(result.getValue().equals("0"));
+  public void multi3(){
+      Binary binary1=new Binary("10010010000101001");
+      Binary binary2=new Binary("00101001101010101");
+      Binary binary3=Binary.multiply(binary1,binary2);
+      assertTrue( binary3.getValue().equals("1011111000110100100110010011101"));     
   }
 
 }
