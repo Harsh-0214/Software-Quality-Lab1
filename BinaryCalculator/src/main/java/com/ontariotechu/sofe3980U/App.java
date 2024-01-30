@@ -28,6 +28,12 @@ public class App
 		Binary sum = Binary.add(binary1,binary2);
 		System.out.println( "Their summation is "+ sum.getValue());
 
+		Binary or = Binary.or(binary1, binary2);
+		System.out.println("Or is: " + or.getValue());
+
+		Binary and = Binary.and(binary1, binary2);
+		System.out.println("And is: " + and.getValue());
+
 		Binary product = Binary.multiply(binary1, binary2);
 		System.out.println( "Multiplication is "+ product.getValue());
     }

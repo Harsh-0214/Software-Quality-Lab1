@@ -32,21 +32,21 @@
 com.ontariotechu.sofe3980U
 'C:/Users/harsh/Documents/GitHub/Software-Quality-Lab1/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/AppTest.java'
 'C:/Users/harsh/Documents/GitHub/Software-Quality-Lab1/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/BinaryTest.java'
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\classes = 1706570007167
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\test-classes = 1706570007406
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\classes = 1706584919227
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\test-classes = 1706584919322
 C:\Users\harsh\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1706301543103
 C:\Users\harsh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1706301543126
 C:\Users\harsh\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar = 1453988647000
 C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\src\test\java = 1706301389272
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\generated-test-sources\test-annotations = 1706570007252
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\allclasses-frame.html = 1706570019246
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\allclasses-noframe.html = 1706570019246
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\constant-values.html = 1706570019104
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\deprecated-list.html = 1706570019230
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\help-doc.html = 1706570019260
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\index-all.html = 1706570019230
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\index.html = 1706570019246
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1706570019214
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\package-list = 1706570019059
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\script.js = 1706570019262
-C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\stylesheet.css = 1706570019262
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\generated-test-sources\test-annotations = 1706584919259
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\allclasses-frame.html = 1706584925028
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\allclasses-noframe.html = 1706584925029
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\constant-values.html = 1706584924950
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\deprecated-list.html = 1706584925013
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\help-doc.html = 1706584925029
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\index-all.html = 1706584925013
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\index.html = 1706584925029
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1706584925013
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\package-list = 1706584924934
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\script.js = 1706584925029
+C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\site\testapidocs\stylesheet.css = 1706584925029

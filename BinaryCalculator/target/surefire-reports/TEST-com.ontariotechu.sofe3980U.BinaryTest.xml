@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.BinaryTest" time="0" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.BinaryTest" time="0.006" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\harsh\AppData\Local\Temp\surefire2680912338048973725\surefirebooter4426552699711220407.jar C:\Users\harsh\AppData\Local\Temp\surefire2680912338048973725 2024-01-29T18-13-27_810-jvmRun1 surefire660889841084811038tmp surefire_03056741971462739282tmp"/>
+    <property name="sun.java.command" value="C:\Users\harsh\AppData\Local\Temp\surefire1596435447945269011\surefirebooter3417019467534248483.jar C:\Users\harsh\AppData\Local\Temp\surefire1596435447945269011 2024-01-29T22-21-59_479-jvmRun1 surefire6200637146356778240tmp surefire_06435083958930922174tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\test-classes;C:\Users\harsh\Documents\GitHub\Software-Quality-Lab1\BinaryCalculator\target\classes;C:\Users\harsh\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\harsh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\harsh\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\harsh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\harsh\AppData\Local\Temp\surefire2680912338048973725\surefirebooter4426552699711220407.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\harsh\AppData\Local\Temp\surefire1596435447945269011\surefirebooter3417019467534248483.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,16 +61,20 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="constructorWithInvalidDigits" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
-  <testcase name="testAnd" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="multi1" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="multi2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="multi3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
-  <testcase name="testOr" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="or1" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="or2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="or3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add4" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add5" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="and1" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="and2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="and3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorWithNegativeSign" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorWithInvalidChars" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorEmptyString" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
